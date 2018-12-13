@@ -22,7 +22,7 @@ class touchIDAuth {
                     DispatchQueue.main.async {
                         completion(nil)
                     }
-                    print("By the time we get to the future it will already have happened.")
+                    print("Something happened.")
                 }
                 else {
                     if let evaluateError = error as NSError? {
